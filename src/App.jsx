@@ -50,7 +50,7 @@ const Big12WheelSpinner = () => {
 
   const selectTeam = () => {
     const rand = Math.random();
-    if (rand < 0.85) {
+    if (rand < 0.5) {
       return 'BYU';
     }
     const otherTeams = teams.filter(t => t !== 'BYU');
